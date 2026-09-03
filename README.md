@@ -23,7 +23,9 @@ Check:
 
 ## App Store URLs
 After publishing, the intended public pages are:
-- Support: `https://quirkydreams.github.io/Quirky-Dreams-Software/support.html`
-- Privacy: `https://quirkydreams.github.io/Quirky-Dreams-Software/privacy.html`
+- Support: `https://quirkydreams.com/support.html`
+- Privacy: `https://quirkydreams.com/privacy.html`
 
-The current contact email is intentionally retained; no new email address was invented.
+Public support email: `support@quirkydreams.com` (verified via ImprovMX forwarding).
+
+Custom domain: `quirkydreams.com`. Enable GitHub Pages **Enforce HTTPS** after GitHub finishes issuing the certificate.
