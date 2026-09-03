@@ -29,3 +29,16 @@ After publishing, the intended public pages are:
 Public support email: `support@quirkydreams.com` (verified via ImprovMX forwarding).
 
 Custom domain: `quirkydreams.com`. Enable GitHub Pages **Enforce HTTPS** after GitHub finishes issuing the certificate.
+
+## Electric Sheep favicon
+The site includes the Quirky Dreams! Software Electric Sheep favicon and related web-app icons:
+- `favicon.ico`
+- `favicon-16x16.png`
+- `favicon-32x32.png`
+- `apple-touch-icon.png`
+- `android-chrome-192x192.png`
+- `android-chrome-512x512.png`
+- `site.webmanifest`
+- `electric-sheep-1024.png`
+
+The GitHub Pages custom domain is preserved by `CNAME` containing `quirkydreams.com`.
