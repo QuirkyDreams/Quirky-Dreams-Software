@@ -1,19 +1,29 @@
+# Quirky Dreams! Software — Text Curator website update
 
-# Quirky Dreams! Software
+Ready-to-upload GitHub Pages package.
 
-Official GitHub Pages site for Quirky Dreams! Software and Xtractor.
+## Upload these files to the repository root
+- `index.html`
+- `text-curator.html`
+- `xtractor.html` (redirects the old product URL)
+- `support.html`
+- `privacy.html`
+- `contact.html`
+- `styles.css`
 
-## Files
+Upload/replace the files in the same GitHub Pages repository that currently serves the Quirky Dreams! Software site.
 
-- `index.html` — home page
-- `xtractor.html` — Xtractor product page
-- `privacy.html` — Xtractor privacy policy
-- `support.html` — Xtractor support
-- `contact.html` — contact page
-- `styles.css` — shared site styling
+## After GitHub Pages publishes
+Check:
+1. Home page navigation opens Text Curator.
+2. Old `/xtractor.html` redirects to `/text-curator.html`.
+3. Support and Privacy links work.
+4. Contact email opens a new email message.
+5. Mobile layout looks normal.
 
-## Before publishing
+## App Store URLs
+After publishing, the intended public pages are:
+- Support: `https://quirkydreams.github.io/Quirky-Dreams-Software/support.html`
+- Privacy: `https://quirkydreams.github.io/Quirky-Dreams-Software/privacy.html`
 
-Replace the placeholder `support@example.com` in `contact.html` with the public support email address you want to use.
-
-GitHub Pages should be configured to deploy from the `main` branch at `/(root)`.
+The current contact email is intentionally retained; no new email address was invented.
