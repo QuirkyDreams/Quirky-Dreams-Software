@@ -41,7 +41,7 @@ main{max-width:var(--max);margin:auto;padding:64px 24px 80px}.hero{padding:30px 
   }
   .step-photo{
     height:auto;
-    aspect-ratio:1 / 1;
+    aspect-ratio:405 / 692;
     background-size:500% auto;
     background-position-y:center;
   }
