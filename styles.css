@@ -25,3 +25,6 @@ main{max-width:var(--max);margin:auto;padding:64px 24px 80px}.hero{padding:30px 
 .nav .brand img{display:block;max-width:100%;height:auto}
 .home-brand img{width:250px;height:auto;margin:-13px 0 -9px}
 .nav .brand img{width:210px;height:auto;margin:-10px 0 -7px}
+/* Bespoke hand lettering for the fixed hero phrase; the HTML text remains accessible. */
+.home-hero h1 em{font-family:inherit;color:transparent;width:5.45em;height:1.08em;overflow:hidden;white-space:nowrap;background:url('we-like-those-lettering.png') center center / 100% auto no-repeat;vertical-align:bottom}
+.home-hero h1 em:after{bottom:0}
