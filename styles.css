@@ -46,3 +46,31 @@ main{max-width:var(--max);margin:auto;padding:64px 24px 80px}.hero{padding:30px 
     background-position-y:center;
   }
 }
+
+
+/* Mobile process cards: centered number, square crop, natural photo proportions. */
+@media(max-width:760px){
+  .process-grid li{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  .process-grid li .step-number{
+    order:1;
+    align-self:center;
+    margin:0 0 12px;
+  }
+  .process-grid li .step-photo{
+    order:2;
+    width:100%;
+    height:auto;
+    aspect-ratio:1 / 1;
+    margin:0 0 14px;
+    background-size:500% auto;
+    background-position-y:center;
+  }
+  .process-grid li p{
+    order:4;
+    width:100%;
+  }
+  .process-grid li h3{order:3;width:100%;}\n}
