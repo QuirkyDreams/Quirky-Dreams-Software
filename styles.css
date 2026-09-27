@@ -73,4 +73,5 @@ main{max-width:var(--max);margin:auto;padding:64px 24px 80px}.hero{padding:30px 
     order:4;
     width:100%;
   }
-  .process-grid li h3{order:3;width:100%;}\n}
+  .process-grid li h3{order:3;width:100%;}
+}
