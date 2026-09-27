@@ -29,3 +29,20 @@ main{max-width:var(--max);margin:auto;padding:64px 24px 80px}.hero{padding:30px 
 .home-hero h1 em{font-family:inherit;color:transparent;width:5.45em;height:1.08em;overflow:hidden;white-space:nowrap;background:url('we-like-those-lettering.png') center center / 100% auto no-repeat;vertical-align:bottom}
 .home-hero h1 em:after{bottom:0}
 .home-hero .hero-art{object-position:85% center}
+
+
+/* Mobile photographic framing — preserve the approved compositions instead of desktop cover-crops. */
+@media(max-width:760px){
+  .home-hero .hero-art{
+    aspect-ratio:auto;
+    height:auto;
+    object-fit:contain;
+    object-position:center;
+  }
+  .step-photo{
+    height:auto;
+    aspect-ratio:3 / 2;
+    background-size:500% 100%;
+    background-position-y:center;
+  }
+}
