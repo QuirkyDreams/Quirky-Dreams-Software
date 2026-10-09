@@ -1,4 +1,4 @@
-# Quirky Dreams! Software — Text Curator website update
+# Quirky Dreams! Studios — Text Curator website update
 
 Ready-to-upload GitHub Pages package.
 
@@ -11,7 +11,7 @@ Ready-to-upload GitHub Pages package.
 - `contact.html`
 - `styles.css`
 
-Upload/replace the files in the same GitHub Pages repository that currently serves the Quirky Dreams! Software site.
+Upload/replace the files in the same GitHub Pages repository that currently serves the Quirky Dreams! Studios site.
 
 ## After GitHub Pages publishes
 Check:
@@ -31,7 +31,7 @@ Public support email: `support@quirkydreams.com` (verified via ImprovMX forwardi
 Custom domain: `quirkydreams.com`. Enable GitHub Pages **Enforce HTTPS** after GitHub finishes issuing the certificate.
 
 ## Electric Sheep favicon
-The site includes the Quirky Dreams! Software Electric Sheep favicon and related web-app icons:
+The site includes the Quirky Dreams! Studios Electric Sheep favicon and related web-app icons:
 - `favicon.ico`
 - `favicon-16x16.png`
 - `favicon-32x32.png`
