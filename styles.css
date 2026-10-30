@@ -75,3 +75,17 @@ main{max-width:var(--max);margin:auto;padding:64px 24px 80px}.hero{padding:30px 
   }
   .process-grid li h3{order:3;width:100%;}
 }
+
+
+/* Studio services: video, AI-assisted creativity, and custom software */
+.services-section{padding:74px 42px 82px;background:#fff}
+.services-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;max-width:1200px;margin:0 auto}
+.service-card{border:1px solid #dfe9f5;background:#f7faff;border-radius:20px;padding:29px;display:flex;flex-direction:column;align-items:flex-start;box-shadow:0 8px 28px #173c6b0d}
+.service-card:nth-child(2){background:#fff9ef;border-color:#f3e4d1}
+.service-card:nth-child(3){background:#f4fbf9;border-color:#d8ede6}
+.service-symbol{font-size:1.65rem;color:#1768dc;background:#fff;border:1px solid #e4eaf3;width:52px;height:52px;display:grid;place-items:center;border-radius:15px}
+.service-card h3{font-size:1.35rem;line-height:1.22;margin:22px 0 10px;letter-spacing:-.025em}
+.service-card p{color:#4f5c73;font-size:1rem;line-height:1.55;margin:0 0 24px}
+.service-card a{font-weight:750;margin-top:auto}
+@media(max-width:850px){.services-section{padding:56px 24px}.services-grid{grid-template-columns:1fr}.service-card{padding:26px}}
+@media(min-width:651px){.home-hero h1 em{width:5.45em}}
